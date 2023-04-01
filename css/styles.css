@@ -590,7 +590,7 @@ p {
 .footer-cont {
   max-width: 268px;
   margin-left: 0;
-  margin-right: 120px;
+  margin-right: 80px;
   padding: 0;
 }
 
@@ -907,6 +907,7 @@ p {
 .modal-label-text {
   font-size: 12px;
   color: var(--subtle-text);
+  display: block;
 }
 
 .modal-input-icon {
@@ -919,12 +920,13 @@ p {
 
 .input-wrap {
   position: relative;
-  margin-bottom: 8px;
+
   margin-top: 4px;
 }
 
 .modal-field {
-  gap: 8px;
+  margin-bottom: 8px;
+  /* gap: 8px; */
 }
 
 .modal-textarea {
